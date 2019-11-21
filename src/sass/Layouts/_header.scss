@@ -1,0 +1,22 @@
+@import "../Components/Header/Logo";
+@import "../Components/Header/Categories";
+@import "../Components/General/Search";
+@import "../Components/Header/BusinessTeach";
+@import "../Components/Header/Cart";
+@import "../Components/General/Button";
+
+.header {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-sizing: border-box;
+    height: 65px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 20px;
+    // position: relative;
+    z-index: 1011;
+  }
+}
+// class tạo ra cho việc focus input

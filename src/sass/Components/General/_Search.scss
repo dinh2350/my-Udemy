@@ -1,0 +1,48 @@
+.header__search {
+  margin: 0 25px;
+  padding: auto 0;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .header__searchContent {
+    display: flex;
+
+    .header__input {
+      input {
+        padding-left: 15px;
+        font-size: $fontSizeHeader;
+        width: 450px;
+        height: 44px;
+        border: none;
+        background: rgba($color: #000000, $alpha: 0.05);
+      }
+      .focusInput {
+        outline: none;
+        background-color: white;
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        border-right: none;
+      }
+    }
+    .header__icon {
+      i {
+        line-height: 34px;
+        font-size: 30px;
+        padding: 5px;
+        background: rgba($color: #000000, $alpha: 0.05);
+        color: red;
+        &:hover {
+          cursor: pointer;
+          color: white;
+          background-color: red;
+        }
+      }
+      .focusIcon {
+        outline: none;
+        background-color: white;
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        border-left: none;
+      }
+    }
+  }
+}

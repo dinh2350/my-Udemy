@@ -12,11 +12,11 @@ const Header = props => {
         <Logo />
         <Categories />
         <Search />
-        <BusinessTeach> test1 </BusinessTeach>
-        <BusinessTeach> test2 </BusinessTeach>
+        <BusinessTeach> Udemy For Business </BusinessTeach>
+        <BusinessTeach> Teach on Udemy </BusinessTeach>
         <Cart />
-        <LoginSignUp>Login</LoginSignUp>
-        <LoginSignUp>Sign Up</LoginSignUp>
+        <LoginSignUp styling="login">Log In</LoginSignUp>
+        <LoginSignUp styling="signup">Sign Up</LoginSignUp>
       </div>
     </header>
   );

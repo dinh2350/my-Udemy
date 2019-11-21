@@ -1,0 +1,28 @@
+.header__categories {
+  display: flex;
+  align-items: center;
+  .header__categoriesContent {
+    padding: 10px 15px;
+    div {
+      display: flex;
+      border: none;
+      .header__iconCategories {
+        i {
+          font-size: $fontSizeHeader;
+          color: $colorHeader;
+        }
+      }
+      .header__textCategories {
+        p {
+          font-size: $fontSizeHeader;
+          color: $colorHeader;
+        }
+      }
+    }
+    &:hover {
+      background-color: rgba($color: #000000, $alpha: 0.05);
+      border: 1px solid rgba($color: #000000, $alpha: 0.1);
+      cursor: pointer;
+    }
+  }
+}
