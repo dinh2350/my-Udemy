@@ -1,8 +1,11 @@
 @import "../Components/Sources/intro";
+@import "../Components/Sources/navbar";
+@import "../Components/Sources/Sthree";
 .sources {
   width: 90%;
   margin: 20px auto;
   .sources_introThree {
     display: flex;
+    width: 100%;
   }
 }

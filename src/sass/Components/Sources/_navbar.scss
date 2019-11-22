@@ -1,0 +1,24 @@
+.sources__navBar {
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 50px;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+    li {
+      a {
+        display: block;
+        height: 93%;
+        text-decoration: none;
+        font-size: 15px;
+        color: #14171c;
+        padding: 0px 10px;
+      }
+      .active {
+        // padding-bottom: 14px;
+        border-bottom: 5px solid rgb(0, 119, 145);
+      }
+    }
+  }
+}

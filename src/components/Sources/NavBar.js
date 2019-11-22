@@ -1,18 +1,37 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink
+} from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div>
+    <div className="sources__navBar">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink exact to="/" activeClassName="active">
+            Business
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/design">Design</NavLink>
         </li>
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <NavLink to="/photography">Photography</NavLink>
+        </li>
+        <li>
+          <NavLink to="/development">Development</NavLink>
+        </li>
+        <li>
+          <NavLink to="/marketing">Marketing</NavLink>
+        </li>
+        <li>
+          <NavLink to="/it">It&Software</NavLink>
+        </li>
+        <li>
+          <NavLink to="/personal">Personal Development</NavLink>
         </li>
       </ul>
     </div>
