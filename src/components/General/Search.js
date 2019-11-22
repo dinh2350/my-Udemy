@@ -11,9 +11,22 @@ class Search extends React.Component {
     this.iconSearch.current.className = "fa fa-search focusIcon";
   };
   unSetFocus = () => {
-    this.inputSearch.current.className = "";
-    this.iconSearch.current.className = "fa fa-search";
+    if (this.props.styling) {
+      this.inputSearch.current.className = "focusInput";
+      this.iconSearch.current.className = "fa fa-search focusIcon";
+    } else {
+      this.inputSearch.current.className = "";
+      this.iconSearch.current.className = "fa fa-search";
+    }
   };
+  componentDidMount() {
+    if (this.props.styling) {
+      if (this.props.styling) {
+        this.inputSearch.current.className = "focusInput";
+        this.iconSearch.current.className = "fa fa-search focusIcon";
+      }
+    }
+  }
   render() {
     return (
       <div className="header__search">

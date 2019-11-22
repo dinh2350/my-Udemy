@@ -1,0 +1,24 @@
+.cover__content {
+  display: flex;
+  .cover__icon {
+    color: white;
+    padding: 10px;
+    i {
+      font-size: 50px;
+    }
+  }
+  .cover__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cover__textContent {
+      color: white;
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

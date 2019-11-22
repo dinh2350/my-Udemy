@@ -1,0 +1,10 @@
+.cover__bottom {
+  background: linear-gradient(-45deg, #ec5252 0%, #6e1a52 100%);
+  .cover__bottomContent {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+  }
+  z-index: 10000;
+}

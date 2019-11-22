@@ -1,0 +1,10 @@
+@import "../Components/Cover/content";
+@import "../Components/Cover/bottom";
+@import "../Components//Cover/detail";
+.cover {
+  background-image: url(https://i.udemycdn.com/notices/home_banner/image/33c440fc-10f2-4bf4-b4b1-369940e16139.jpg);
+  height: 550px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
