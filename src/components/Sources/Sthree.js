@@ -1,16 +1,17 @@
 import React from "react";
-
+import NavBar from "./NavBar";
+import ListSources from "./ListSources";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const Sthree = props => {
   return (
-    <div className="sources__sthree">
-      <div className="sources__sthreeContent">
-        <h2>The world’s largest selection of courses</h2>
-        <p>
-          Choose from over 100,000 online video courses with new additions
-          published every month
-        </p>
+    <Router>
+      <div className="sources__sthree">
+        <div className="sources__sthreeContent">
+          <NavBar />
+          <ListSources />
+        </div>
       </div>
-    </div>
+    </Router>
   );
 };
 

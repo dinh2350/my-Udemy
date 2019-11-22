@@ -5,13 +5,11 @@ import Sfive from "./Sfive";
 const Sources = props => {
   return (
     <section className="sources">
-      <div>
+      <div className="sources_introThree">
         <Intro />
         <Sthree />
       </div>
-      <div>
-        <Sfive />
-      </div>
+      <div>{/* <Sfive /> */}</div>
     </section>
   );
 };
