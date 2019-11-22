@@ -37,6 +37,7 @@ class Search extends React.Component {
               onBlur={this.unSetFocus}
               onFocus={this.setFocus}
               ref={this.inputSearch}
+              placeholder="Search for anything"
             />
           </div>
           <div className="header__icon">
